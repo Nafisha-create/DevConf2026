@@ -11,6 +11,7 @@ nav{
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 6px 30px;
 }
 
@@ -39,11 +40,72 @@ nav ul li a{
 nav button{
     background-color: #1D4ED8;
     margin: 8px;
-    padding: 4px 14px;
+    padding: 10px 30px;
     border-radius: 8px;
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
     border: 0px;
+}
+/* Overlay Section */
+.overlay-images{
+    position: relative;
+}
+
+.overlay-images img{
+    width: 100%;
+    height: 600px;
+}
+
+.button-area{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.register-btn{
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover{
+    background-color: #3754a5;
+}
+/* catagory section start here */
+.catagory{
+    padding: 0px 30px;
+}
+.catagory .heading h1{
+    text-align: center;
+}
+.speakers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.speakers .card{
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+}
+.speakers .card img{
+    height: 300px;
+    width: 600px;
+}
+.speakers .card .card-container{
+    padding: 10px;
+}
+.speakers .card .card-container .card-subtitle{
+    color: blue;
+    font-weight: 600;
+}
+.speakers .card .card-container .card-title{
+    margin: 6px 0px;
 }
