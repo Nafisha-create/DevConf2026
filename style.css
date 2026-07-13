@@ -97,7 +97,7 @@ nav button{
 }
 .speakers .card img{
     height: 300px;
-    width: 600px;
+    width: 100%;
 }
 .speakers .card .card-container{
     padding: 10px;
@@ -125,7 +125,7 @@ nav button{
 
 .price-catagory .card{
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 400px);
     justify-content: center;
     gap: 30px;
 }
@@ -204,4 +204,61 @@ nav button{
 .review-card h4{
     color: #111827;
     font-size: 18px;
+}
+/* Footer start here */
+.footer{
+    background-color:#111827;
+    color:white;
+    padding:40px 60px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo h2{
+    margin:0;
+    font-size:28px;
+}
+
+.footer-logo span{
+    color:#3B82F6;
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+}
+
+.social-icons a{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    width:40px;
+    height:40px;
+    border:1px solid #374151;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.social-icons a:hover{
+    background-color:#2563EB;
+    border-color:#2563EB;
+}
+
+.footer hr{
+    border:none;
+    border-top:1px solid #374151;
+    margin:30px 0 20px;
+}
+
+.copyright{
+    text-align:center;
+    font-size:15px;
+    color:#D1D5DB;
+    margin:0;
 }
