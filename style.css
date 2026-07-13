@@ -163,6 +163,77 @@ nav button{
     color: #111;
     font-weight: bold;
 }
+/* Blog page start here */
+.blog{
+    padding:10px 60px;
+    background-color:#F9FAFB;
+}
+
+.blog h1{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.blog-text{
+    text-align:center;
+    color:#6B7280;
+    width:60%;
+    margin:0 auto 50px;
+    line-height:1.6;
+}
+
+.blog-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.blog-card{
+    background:white;
+    width:350px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.blog-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.blog-content{
+    padding:20px;
+}
+
+.blog-content span{
+    color:#2563EB;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.blog-content h3{
+    margin:12px 0;
+    font-size:24px;
+}
+
+.blog-content p{
+    color:#6B7280;
+    line-height:1.6;
+}
+
+.blog-content a{
+    display:inline-block;
+    margin-top:15px;
+    text-decoration:none;
+    color:#2563EB;
+    font-weight:bold;
+}
+
+.blog-content a:hover{
+    text-decoration:underline;
+}
 /* Reviews Start here */
 .reviews{
     text-align: center;
@@ -210,6 +281,7 @@ nav button{
     background-color:#111827;
     color:white;
     padding:40px 60px;
+    margin-top: 20px;
 }
 
 .footer-top{
