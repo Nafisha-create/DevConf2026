@@ -163,3 +163,45 @@ nav button{
     color: #111;
     font-weight: bold;
 }
+/* Reviews Start here */
+.reviews{
+    text-align: center;
+    padding: 10px 30px;
+    background-color: #f5f7fa;
+}
+
+.reviews h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.review-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.review-card{
+    width: 300px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #D1D5DB;
+}
+
+.review-card p{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.review-card h3{
+    color: #16a34a;
+    margin: 20px 0 10px;
+}
+
+.review-card h4{
+    color: #111827;
+    font-size: 18px;
+}
