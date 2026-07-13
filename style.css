@@ -109,3 +109,57 @@ nav button{
 .speakers .card .card-container .card-title{
     margin: 6px 0px;
 }
+/* Price Starts here */
+.price-catagory{
+    padding: 0 30px;
+}
+
+.price-catagory .heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.price-catagory .heading p{
+    color: #887777;
+}
+
+.price-catagory .card{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.price-catagory .card-frame{
+    border: 1px solid #D1D5DB;
+    border-radius: 10px;
+    padding: 30px;
+    min-height: 400px;
+    background: #fff;
+}
+
+.price-catagory .card-frame-bg{
+    background-color: #1f2937;
+    color: #fff;
+    border-color: #1f2937;
+}
+
+.card-frame button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-frame button{
+    background: #111;
+    color: #fff;
+}
+
+.card-frame-bg button{
+    background: #fbbf24;
+    color: #111;
+    font-weight: bold;
+}
